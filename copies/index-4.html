@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Contacts</title>
+		<meta charset="utf-8">
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="images/favicon.ico" />
+		<link rel="stylesheet" href="css/form.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-migrate-1.1.1.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/TMForm.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="js/jquery.equalheights.js"></script>
+		<script src="js/jquery.mobilemenu.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script>
+		$(document).ready(function(){
+			$().UItoTop({ easingType: 'easeOutQuart' });
+		})
+		</script>
+		<!--[if lt IE 8]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+				<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+			</a>
+		</div>
+		<![endif]-->
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<link rel="stylesheet" media="screen" href="css/ie.css">
+		<![endif]-->
+	</head>
+	<body id="top">
+<!--==============================header=================================-->
+		<header>
+
+			<div class="container_12">
+				<div class="grid_12">
+					<h1>
+						<a href="index.html">
+							<!--<img src="photos/logo.png" alt="Your Happy Family">-->
+						</a>
+						<div class="slogan"></div>
+					</h1>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="menu_block">
+				<div class="container_12">
+					<div class="grid_12">
+						<nav class="horizontal-nav full-width horizontalNav-notprocessed">
+							<ul class="sf-menu">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="index-1.html">Services</a></li>
+								<li><a href="index-2.html">Gallery</a></li>
+								
+								<li class="current"><a href="index-4.html">Contacts</a></li>
+							</ul>
+						</nav>
+						<div class="clear"></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</header>
+<!--==============================Content=================================-->
+<div class ="mydiv">
+		<div class="content"><div class="ic"></div>
+			<div class="container_12">
+				<div class="grid_8">
+					<h2>How to Find Us</h2>
+					<div class="map">
+						<div class="img_block fleft">
+							<figure class="img_inner">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.740895709554!2d-81.38051698498789!3d44.43847690931515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8829c8dbd327dd39%3A0xf20a4e84b3ab1cd0!2s806+Bradford+St%2C+Port+Elgin%2C+ON+N0H+2C4!5e0!3m2!1sen!2sca!4v1516415596554" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+							</figure>
+							<span class="l"></span>
+							<span class="ll"></span>
+							<span class="r"></span>
+							<span class="rr"></span>
+							<span class="lb"></span>
+							<span class="llb"></span>
+							<span class="rb"></span>
+							<span class="rrb"></span>
+						</div>
+						<div class="extra_wrapper">
+							<p class="pt1"><p><b>Contact our team</b></p>We welcome your inquiries and requests. You can contact us by email, or phone</p>
+							<p> If you have any tree care requests, we would be more than happy to recommend the proper procedures for meeting your tree care needs. </p>
+							<address>
+								<dl>
+									<dt>Great Lakes Tree Experts <br>
+										806 Bradford St,<br>
+										Port Elgin, N0H 2C4.
+									</dt>
+									<dd><span>Telephone:</span>+1 226-668-4961 </dd>
+									<dd><span>Telephone:</span>+1 226-668-0402</dd>
+									<dd>E-mail: <a href="#newsletter .success" class="link-1">GLakesTreeExperts@gmail.com</a></dd>
+								</dl>
+							</address>
+						</div>
+					</div>
+				</div>
+				<div class="grid_4">
+					<h2>Contact Form</h2>
+					<form id="form">
+						<div class="success_wrapper">
+							<div class="success-message">Contact form submitted</div>
+						</div>
+						<label class="name">
+							<input type="text" placeholder="Name:" data-constraints="@Required @JustLetters" />
+							<span class="empty-message">*This field is required.</span>
+							<span class="error-message">*This is not a valid name.</span>
+						</label>
+						<label class="email">
+							<input type="text" placeholder="E-mail:" data-constraints="GLakesTreeExperts@gmail.com" />
+							<span class="empty-message">*This field is required.</span>
+							<span class="error-message">*This is not a valid email.</span>
+						</label>
+						<label class="phone">
+							<input type="text" placeholder="Phone:" data-constraints="@Required @JustNumbers"/>
+							<span class="empty-message">*This field is required.</span>
+							<span class="error-message">*This is not a valid phone.</span>
+						</label>
+						<label class="message">
+							<textarea placeholder="Message:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+							<span class="empty-message">*This field is required.</span>
+							<span class="error-message">*The message is too short.</span>
+						</label>
+						<div>
+							<div class="clear"></div>
+							<div class="btns">
+								<a href="#" data-type="reset" class="btn">Clear</a>
+								<a href="#" data-type="submit" class="btn">Send</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		</div>
+<!--==============================footer=================================-->
+		<footer>
+		<div class ="mydiv">
+			<div class="container_12">
+				<div class="grid_12 ">
+					<div class="copy">
+						(C) <span id="copyright-year"></span> &nbsp;|&nbsp;GLTE | Website owned and operated by Great Lakes Tree Experts
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			</div>
+		</footer>
+	</body>
+</html>
